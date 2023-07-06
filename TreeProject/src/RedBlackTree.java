@@ -158,7 +158,7 @@ public class RedBlackTree {
     public static void main(String[] args) {
         RedBlackTree tree = new RedBlackTree();
 
-        int[] numbers = generateRandomNumbers(500000); // Altere o tamanho do array conforme necessário
+        int[] numbers = generateRandomNumbers(1500000); // Altere o tamanho do array conforme necessário
 
         for (int number : numbers) {
             tree.insert(number);
